@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: whitesmoke;
+  overflow-x: hidden;
 }
 
 header {
@@ -43,7 +44,10 @@ header > p {
 }
 
 .meme > img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
 }
 
 .meme > h2 {

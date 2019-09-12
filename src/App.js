@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Header />
-      <h1>Hello, word!</h1>
       <MemeGenerator />
     </div>
   );

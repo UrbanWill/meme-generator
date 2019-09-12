@@ -1,30 +1,24 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 
 class MemeGenerator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      topText: "",
-      bottomText: "",
-      randomImg: "http://i.imgflip.com/1bij.jpg",
-      allMemeImgs: []
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.randomImgGen = this.randomImgGen.bind(this);
-  }
+  state = {
+    topText: "",
+    bottomText: "",
+    randomImg: "http://i.imgflip.com/1bij.jpg",
+    allMemeImgs: []
+  };
 
-  randomImgGen(event) {
+  randomImgGen = event => {
     event.preventDefault();
     let randomizer = Math.floor(Math.random() * this.state.allMemeImgs.length);
     this.setState({ randomImg: this.state.allMemeImgs[randomizer].url });
     console.log(this.state.allMemeImgs[randomizer]);
-  }
+  };
 
-  handleChange(event) {
+  handleChange = event => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
-  }
+  };
 
   componentDidMount() {
     fetch("https://api.imgflip.com/get_memes")
