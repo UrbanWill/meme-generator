@@ -1,6 +1,6 @@
 # Random Meme Generator
 
-[Hosted version](ttps://urban-meme-generator.netlify.com)
+[Hosted version](https://urban-meme-generator.netlify.com)
 
 Coded with:
 - React
