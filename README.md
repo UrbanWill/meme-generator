@@ -1,5 +1,11 @@
-Capstone Project from Scrimba "Learn React" course.
+# Random Meme Generator
 
-Random meme generator working app: https://urban-meme-generator.netlify.com.
+[Hosted version](ttps://urban-meme-generator.netlify.com)
 
-Have fun!
+Coded with:
+- React
+- JavaScript
+- HTML5
+- CSS3
+
+Makes an API call and fetches a random image, then using React renders a top and bottom text.
