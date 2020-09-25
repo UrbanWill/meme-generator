@@ -20,8 +20,8 @@ header {
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2a0845,
-    red
+    red,
+    pink
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -32,7 +32,7 @@ header > img {
 
 header > p {
   font-family: VT323, monospace;
-  color: whitesmoke;
+  color: lime;
   font-size: 50px;
   margin-left: 60px;
 }
