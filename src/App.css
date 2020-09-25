@@ -13,6 +13,7 @@ header {
   display: flex;
   align-items: center;
   background: #6441a5; /* fallback for old browsers */
+  background: #6441a5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #2a0845,
@@ -21,7 +22,7 @@ header {
   background: linear-gradient(
     to right,
     #2a0845,
-    #6441a5
+    red
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
